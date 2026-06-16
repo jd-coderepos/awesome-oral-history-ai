@@ -114,126 +114,126 @@ This repository does not host, mirror, scrape, or redistribute testimony data. E
 
 ### Search & Retrieval
 
-- [Placing Holocaust Testimonies 1k](https://huggingface.co/datasets/placingholocaust/testimonies-1k) - Transcript set for segment retrieval and search experiments.
-- [EHRI Portal](https://portal.ehri-project.eu/) - Metadata-rich archival discovery.
-- [Oral-History.Digital](https://www.oral-history.digital/) - Cross-collection interview search reference.
-- [Designing Spontaneous Speech Search Interface for Historical Archives](https://arxiv.org/abs/1312.4706) - Faceted search and speech-archive interface design.
+- [Placing Holocaust Testimonies 1k](https://huggingface.co/datasets/placingholocaust/testimonies-1k) - Transcript set for segment retrieval and search experiments. 📄 `Text` 🟢 `Open`
+- [EHRI Portal](https://portal.ehri-project.eu/) - Metadata-rich archival discovery. 🗂️ `Metadata` 🔵 `Web`
+- [Oral-History.Digital](https://www.oral-history.digital/) - Cross-collection interview search reference. 🛠️ `Tool` 🗂️ `Metadata` 🟠 `Register`
+- [Designing Spontaneous Speech Search Interface for Historical Archives](https://arxiv.org/abs/1312.4706) - Faceted search and speech-archive interface design. 🎞️ `Video` 🔊 `Audio`
 
 ### RAG & QA
 
-- [Placing Holocaust Testimonies 1k](https://huggingface.co/datasets/placingholocaust/testimonies-1k) - Open transcript sample for retrieval-grounded QA prototypes.
-- [EHRI Online Editions](https://www.ehri-project.eu/ehri-online-editions/) - Curated edition context for citation-aware retrieval.
-- [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) - Authority grounding for generated answers.
+- [Placing Holocaust Testimonies 1k](https://huggingface.co/datasets/placingholocaust/testimonies-1k) - Open transcript sample for retrieval-grounded QA prototypes. 📄 `Text` 🟢 `Open`
+- [EHRI Online Editions](https://www.ehri-project.eu/ehri-online-editions/) - Curated edition context for citation-aware retrieval. 📄 `Text` 🗂️ `Metadata` 🔵 `Web`
+- [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) - Authority grounding for generated answers. 🧭 `Authority` 🟢 `Open`
 
 ### ASR & Alignment
 
-- [Corpus of Spoken Yiddish in Europe](https://www.yiddishcorpus.org/csye/) - Audio, subtitles, and transcripts for Yiddish speech research.
-- [BAS Web Services](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSBasic) - Speech segmentation and alignment services.
-- [Speech Technology Services for Oral History Research](https://arxiv.org/abs/2405.02333) - Practical overview of ASR services and workflows for oral history.
-- [Human and Automatic Speech Recognition Performance on German Oral History Interviews](https://arxiv.org/abs/2201.06841) - Evaluation reference for German oral-history ASR.
+- [Corpus of Spoken Yiddish in Europe](https://www.yiddishcorpus.org/csye/) - Audio, subtitles, and transcripts for Yiddish speech research. 🔊 `Audio` 📄 `Text` 🟢 `Open`
+- [BAS Web Services](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSBasic) - Speech segmentation and alignment services. 🔊 `Audio` 🛠️ `Tool`
+- [Speech Technology Services for Oral History Research](https://arxiv.org/abs/2405.02333) - Practical overview of ASR services and workflows for oral history. 🔊 `Audio` 🛠️ `Tool`
+- [Human and Automatic Speech Recognition Performance on German Oral History Interviews](https://arxiv.org/abs/2201.06841) - Evaluation reference for German oral-history ASR. 🔊 `Audio` `German`
 
 ### NER & Entity Linking
 
-- [Placing the Holocaust](https://huggingface.co/placingholocaust) - Place taxonomy and Holocaust-oriented NER resources.
-- [Placing Holocaust GLiNER Small](https://huggingface.co/placingholocaust/gliner_small-v2.1-holocaust) - Small place/entity extraction model.
-- [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) - Authority-control target for persons, places, organizations, events, and topics.
-- [GeoNames](https://www.geonames.org/) - Place-linking and geocoding baseline.
+- [Placing the Holocaust](https://huggingface.co/placingholocaust) - Place taxonomy and Holocaust-oriented NER resources. 🏷️ `NER` 📄 `Text` 🤖 `Model`
+- [Placing Holocaust GLiNER Small](https://huggingface.co/placingholocaust/gliner_small-v2.1-holocaust) - Small place/entity extraction model. 🏷️ `NER` 🤖 `Model` 🟢 `Open`
+- [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) - Authority-control target for persons, places, organizations, events, and topics. 🧭 `Authority` 🟢 `Open`
+- [GeoNames](https://www.geonames.org/) - Place-linking and geocoding baseline. 🧭 `Authority` 🟢 `Open`
 
 ### Sentiment, Emotion & Topics
 
-- [LLM4OralHistoryAnalysis](https://github.com/kc6699c/LLM4OralHistoryAnalysis) - Topic classification and sentiment analysis with LLMs on oral-history text.
-- [Placing Holocaust Testimonies 1k](https://huggingface.co/datasets/placingholocaust/testimonies-1k) - Possible transcript source for careful exploratory sentiment or topic modeling.
+- [LLM4OralHistoryAnalysis](https://github.com/kc6699c/LLM4OralHistoryAnalysis) - Topic classification and sentiment analysis with LLMs on oral-history text. 📄 `Text` 🤖 `Model` 🟢 `Open`
+- [Placing Holocaust Testimonies 1k](https://huggingface.co/datasets/placingholocaust/testimonies-1k) - Possible transcript source for careful exploratory sentiment or topic modeling. 📄 `Text` 🟢 `Open`
 
 ### LLM Evaluation
 
-- [LLM4OralHistoryAnalysis](https://github.com/kc6699c/LLM4OralHistoryAnalysis) - Prompting, RAG, and model comparison for oral-history understanding.
-- [Placing Holocaust Testimonies 1k](https://huggingface.co/datasets/placingholocaust/testimonies-1k) - Small open transcript set for retrieval and hallucination tests.
-- [Oral History in the Digital Age](https://ohda.matrix.msu.edu/) - Ethics and access context for responsible AI workflows.
+- [LLM4OralHistoryAnalysis](https://github.com/kc6699c/LLM4OralHistoryAnalysis) - Prompting, RAG, and model comparison for oral-history understanding. 📄 `Text` 🤖 `Model` 🟢 `Open`
+- [Placing Holocaust Testimonies 1k](https://huggingface.co/datasets/placingholocaust/testimonies-1k) - Small open transcript set for retrieval and hallucination tests. 📄 `Text` 🟢 `Open`
+- [Oral History in the Digital Age](https://ohda.matrix.msu.edu/) - Ethics and access context for responsible AI workflows. 🛠️ `Tool` 🔵 `Web`
 
 ## Browse by Language
 
 ### English
 
-- [Placing Holocaust Testimonies 1k](https://huggingface.co/datasets/placingholocaust/testimonies-1k)
-- [Placing the Holocaust](https://huggingface.co/placingholocaust)
-- [Densho Digital Repository](https://ddr.densho.org/)
-- [LLM4OralHistoryAnalysis](https://github.com/kc6699c/LLM4OralHistoryAnalysis)
+- [Placing Holocaust Testimonies 1k](https://huggingface.co/datasets/placingholocaust/testimonies-1k) - 📄 `Text` 🟢 `Open`
+- [Placing the Holocaust](https://huggingface.co/placingholocaust) - 🏷️ `NER` 📄 `Text` 🤖 `Model`
+- [Densho Digital Repository](https://ddr.densho.org/) - 📄 `Text` 🎞️ `Video` 🗂️ `Metadata` 🔵 `Web`
+- [LLM4OralHistoryAnalysis](https://github.com/kc6699c/LLM4OralHistoryAnalysis) - 📄 `Text` 🤖 `Model` 🟢 `Open`
 
 ### German
 
-- [Oral-History.Digital](https://www.oral-history.digital/)
-- [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html)
-- [Human and Automatic Speech Recognition Performance on German Oral History Interviews](https://arxiv.org/abs/2201.06841)
+- [Oral-History.Digital](https://www.oral-history.digital/) - 🔊 `Audio` 🎞️ `Video` 🗂️ `Metadata` 🟠 `Register`
+- [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html) - 🧭 `Authority` 🟢 `Open`
+- [Human and Automatic Speech Recognition Performance on German Oral History Interviews](https://arxiv.org/abs/2201.06841) - 🔊 `Audio` `German`
 
 ### Yiddish & Low-Resource
 
-- [Corpus of Spoken Yiddish in Europe](https://www.yiddishcorpus.org/csye/)
+- [Corpus of Spoken Yiddish in Europe](https://www.yiddishcorpus.org/csye/) - 🔊 `Audio` 📄 `Text` 🟢 `Open`
 
 ### Multilingual Resources
 
-- [USC Shoah Foundation Visual History Archive](https://sfi.usc.edu/what-we-do/collections)
-- [Fortunoff Video Archive on Aviary](https://fortunoff.aviaryplatform.com/)
-- [EHRI Portal](https://portal.ehri-project.eu/)
-- [GeoNames](https://www.geonames.org/)
-- [ELSST](https://elsst.cessda.eu/)
-- [CLARIN Virtual Language Observatory](https://vlo.clarin.eu/)
+- [USC Shoah Foundation Visual History Archive](https://sfi.usc.edu/what-we-do/collections) - 🎞️ `Video` 🧩 `Multimodal` 🔴 `Institutional`
+- [Fortunoff Video Archive on Aviary](https://fortunoff.aviaryplatform.com/) - 🎞️ `Video` 🔊 `Audio` 🟠 `Register` ⚫ `Restricted`
+- [EHRI Portal](https://portal.ehri-project.eu/) - 🗂️ `Metadata` 🔵 `Web`
+- [GeoNames](https://www.geonames.org/) - 🧭 `Authority` 🟢 `Open`
+- [ELSST](https://elsst.cessda.eu/) - 🧭 `Authority` 🟢 `Open`
+- [CLARIN Virtual Language Observatory](https://vlo.clarin.eu/) - 🗂️ `Metadata` ❓ `Verify`
 
 ### Images, OCR & Documents
 
-- [Arolsen Archives Online Search](https://arolsen-archives.org/en/archive/online-search/)
-- [Densho Digital Repository](https://ddr.densho.org/)
+- [Arolsen Archives Online Search](https://arolsen-archives.org/en/archive/online-search/) - 🔍 `OCR` 🗂️ `Metadata` 🔵 `Web`
+- [Densho Digital Repository](https://ddr.densho.org/) - 📄 `Text` 🎞️ `Video` 🗂️ `Metadata` 🔵 `Web`
 
 ### Text & Transcripts
 
-- [Placing Holocaust Testimonies 1k](https://huggingface.co/datasets/placingholocaust/testimonies-1k)
-- [Corpus of Spoken Yiddish in Europe](https://www.yiddishcorpus.org/csye/)
-- [Densho Digital Repository](https://ddr.densho.org/)
+- [Placing Holocaust Testimonies 1k](https://huggingface.co/datasets/placingholocaust/testimonies-1k) - 📄 `Text` 🟢 `Open`
+- [Corpus of Spoken Yiddish in Europe](https://www.yiddishcorpus.org/csye/) - 📄 `Text` 🔊 `Audio` 🟢 `Open`
+- [Densho Digital Repository](https://ddr.densho.org/) - 📄 `Text` 🗂️ `Metadata` 🔵 `Web`
 
 ### Audio & ASR
 
-- [Corpus of Spoken Yiddish in Europe](https://www.yiddishcorpus.org/csye/)
-- [BAS Web Services](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSBasic)
-- [Speech Technology Services for Oral History Research](https://arxiv.org/abs/2405.02333)
+- [Corpus of Spoken Yiddish in Europe](https://www.yiddishcorpus.org/csye/) - 🔊 `Audio` 📄 `Text` 🟢 `Open`
+- [BAS Web Services](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/WebMAUSBasic) - 🔊 `Audio` 🛠️ `Tool`
+- [Speech Technology Services for Oral History Research](https://arxiv.org/abs/2405.02333) - 🔊 `Audio` 🛠️ `Tool`
 
 ### Video & Multimodal
 
-- [USC Shoah Foundation Visual History Archive](https://sfi.usc.edu/what-we-do/collections)
-- [Fortunoff Video Archive on Aviary](https://fortunoff.aviaryplatform.com/)
-- [USHMM Oral History Archive](https://www.ushmm.org/collections/the-museums-collections/about/oral-history)
-- [Densho Digital Repository](https://ddr.densho.org/)
+- [USC Shoah Foundation Visual History Archive](https://sfi.usc.edu/what-we-do/collections) - 🎞️ `Video` 🧩 `Multimodal` 🔴 `Institutional`
+- [Fortunoff Video Archive on Aviary](https://fortunoff.aviaryplatform.com/) - 🎞️ `Video` 🔊 `Audio` 🟠 `Register` ⚫ `Restricted`
+- [USHMM Oral History Archive](https://www.ushmm.org/collections/the-museums-collections/about/oral-history) - 🎞️ `Video` 🔊 `Audio` 🗂️ `Metadata` 🔵 `Web`
+- [Densho Digital Repository](https://ddr.densho.org/) - 🎞️ `Video` 📄 `Text` 🗂️ `Metadata` 🔵 `Web`
 
 ## Browse by Access
 
 ### Open Download
 
-- 🟢 [Placing Holocaust Testimonies 1k](https://huggingface.co/datasets/placingholocaust/testimonies-1k)
-- 🟢 [Corpus of Spoken Yiddish in Europe](https://www.yiddishcorpus.org/csye/)
-- 🟢 [Placing Holocaust GLiNER Small](https://huggingface.co/placingholocaust/gliner_small-v2.1-holocaust)
-- 🟢 [LLM4OralHistoryAnalysis](https://github.com/kc6699c/LLM4OralHistoryAnalysis)
-- 🟢 [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html)
-- 🟢 [GeoNames](https://www.geonames.org/)
-- 🟢 [ELSST](https://elsst.cessda.eu/)
-- 🟢 [OHMS Viewer](https://github.com/uklibraries/ohms-viewer)
+- [Placing Holocaust Testimonies 1k](https://huggingface.co/datasets/placingholocaust/testimonies-1k)
+- [Corpus of Spoken Yiddish in Europe](https://www.yiddishcorpus.org/csye/)
+- [Placing Holocaust GLiNER Small](https://huggingface.co/placingholocaust/gliner_small-v2.1-holocaust)
+- [LLM4OralHistoryAnalysis](https://github.com/kc6699c/LLM4OralHistoryAnalysis)
+- [GND](https://www.dnb.de/EN/Professionell/Standardisierung/GND/gnd_node.html)
+- [GeoNames](https://www.geonames.org/)
+- [ELSST](https://elsst.cessda.eu/)
+- [OHMS Viewer](https://github.com/uklibraries/ohms-viewer)
 
 ### Public Web Access
 
-- 🔵 [Densho Digital Repository](https://ddr.densho.org/)
-- 🔵 [EHRI Portal](https://portal.ehri-project.eu/)
-- 🔵 [EHRI Online Editions](https://www.ehri-project.eu/ehri-online-editions/)
-- 🔵 [USHMM Oral History Archive](https://www.ushmm.org/collections/the-museums-collections/about/oral-history)
-- 🔵 [Arolsen Archives Online Search](https://arolsen-archives.org/en/archive/online-search/)
-- 🔵 [Oral History in the Digital Age](https://ohda.matrix.msu.edu/)
+- [Densho Digital Repository](https://ddr.densho.org/)
+- [EHRI Portal](https://portal.ehri-project.eu/)
+- [EHRI Online Editions](https://www.ehri-project.eu/ehri-online-editions/)
+- [USHMM Oral History Archive](https://www.ushmm.org/collections/the-museums-collections/about/oral-history)
+- [Arolsen Archives Online Search](https://arolsen-archives.org/en/archive/online-search/)
+- [Oral History in the Digital Age](https://ohda.matrix.msu.edu/)
 
 ### Registration Required
 
-- 🟠 [Fortunoff Video Archive on Aviary](https://fortunoff.aviaryplatform.com/)
-- 🟠 [Oral-History.Digital](https://www.oral-history.digital/)
+- [Fortunoff Video Archive on Aviary](https://fortunoff.aviaryplatform.com/)
+- [Oral-History.Digital](https://www.oral-history.digital/)
 
 ### Institutional / Restricted
 
-- 🔴 [USC Shoah Foundation Visual History Archive](https://sfi.usc.edu/what-we-do/collections)
-- 🔴 ⚫ [Fortunoff Video Archive on Aviary](https://fortunoff.aviaryplatform.com/)
-- ⚫ [Aviary](https://www.aviaryplatform.com/)
+- [USC Shoah Foundation Visual History Archive](https://sfi.usc.edu/what-we-do/collections)
+- [Fortunoff Video Archive on Aviary](https://fortunoff.aviaryplatform.com/)
+- [Aviary](https://www.aviaryplatform.com/)
 
 ## Needs Verification
 
@@ -255,7 +255,9 @@ These leads look relevant but should not be presented as open or reusable until 
 | CLARIN-IT speech phenomenon resources | Possible resources for pauses, gaps, and utterances. | Public records, download availability, license, and testimony relevance. |
 | TheirStory | Oral-history workflow platform lead. | Current status, export formats, research fit, and terms. |
 
-## Responsible Use
+<a id="responsible-use"></a>
+
+## 🛡️ Responsible Use
 
 Holocaust testimonies and oral-history interviews can contain traumatic, biographical, personal, and legally sensitive content.
 
@@ -269,12 +271,16 @@ Holocaust testimonies and oral-history interviews can contain traumatic, biograp
 - Prefer synthetic examples, open resources, or metadata-only workflows for public demos.
 - Use access-aware retrieval, auditability, transparency markers, and human-in-the-loop evaluation for sensitive collections.
 
-## Contributing
+<a id="contributing"></a>
+
+## 🤝 Contributing
 
 Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before suggesting a new resource.
 
 New resources should include a public URL, access status, license or terms, language coverage, modality, and purpose. Do not submit restricted data, scraped testimony content, or personal data. If access status is unclear, add the resource to [Needs Verification](#needs-verification) instead of the main list.
 
-## License
+<a id="license"></a>
+
+## ⚖️ License
 
 This curated list is released under CC BY 4.0 unless otherwise stated. Each linked resource remains governed by its own license, access conditions, and terms of use.
