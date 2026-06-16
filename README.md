@@ -38,9 +38,32 @@ This repository does not host, mirror, scrape, or redistribute testimony data. E
 
 ## Legend
 
-Access tags: `Open` direct download under stated terms, `Web` public online access, `Metadata` public descriptions or catalog records, `Register` account or request required, `Institutional` access site or subscribing institution required, `Restricted` permission or licensing required, `Verify` unclear access or terms.
+### Access Tags
 
-Modality tags: `Text`, `Audio`, `Video`, `Multimodal`, `OCR`, `Metadata`, `NER`, `Authority`, `Tool`, `Model`.
+| Tag | Meaning |
+| --- | --- |
+| 🟢 `Open` | Direct download under stated terms. |
+| 🔵 `Web` | Public online search or viewing; bulk download may not be available. |
+| 🟡 `Metadata` | Public descriptions, catalog records, or metadata; full content may not be available. |
+| 🟠 `Register` | Account, registration, request, or approval required. |
+| 🔴 `Institutional` | Access site, reading room, subscribing institution, or approved network required. |
+| ⚫ `Restricted` | Explicit permission, licensing, or a data agreement required. |
+| ❓ `Verify` | Access, license, scope, or format still needs confirmation. |
+
+### Modality Tags
+
+| Tag | Meaning |
+| --- | --- |
+| 📄 `Text` | Transcripts, subtitles, documents, or plain text. |
+| 🔊 `Audio` | Speech recordings or audio-derived resources. |
+| 🎞️ `Video` | Video testimony or video-derived material. |
+| 🧩 `Multimodal` | Combined text, audio, video, images, gesture, or paraverbal cues. |
+| 🔍 `OCR` | Scanned documents, PDFs, images, OCR, or layout extraction. |
+| 🗂️ `Metadata` | Catalog records, collection descriptions, indexes, or archival metadata. |
+| 🏷️ `NER` | Named entity recognition datasets, annotations, or models. |
+| 🧭 `Authority` | Gazetteers, thesauri, authority files, or entity-linking targets. |
+| 🛠️ `Tool` | Software, services, or platforms. |
+| 🤖 `Model` | Machine-learning or language models. |
 
 ## Open Datasets
 
@@ -251,10 +274,6 @@ Holocaust testimonies and oral-history interviews can contain traumatic, biograp
 Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before suggesting a new resource.
 
 New resources should include a public URL, access status, license or terms, language coverage, modality, and purpose. Do not submit restricted data, scraped testimony content, or personal data. If access status is unclear, add the resource to [Needs Verification](#needs-verification) instead of the main list.
-
-## Suggested GitHub Topics
-
-`awesome` `awesome-list` `oral-history` `holocaust-testimonies` `digital-humanities` `language-resources` `datasets` `nlp` `semantic-search` `rag` `asr` `named-entity-recognition` `entity-linking` `multimodal-ai` `speech-recognition` `archival-data` `responsible-ai` `fair-data` `cultural-heritage` `testimony`
 
 ## License
 
