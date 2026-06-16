@@ -2,50 +2,138 @@
 
 Thank you for helping improve this community resource. This repository is a Markdown-only curated awesome list, not a data mirror, software platform, or project-specific bibliography.
 
-## What to Add
+The goal of these guidelines is to make community and automated pull requests easy to review.
 
-Relevant resources include:
+## Quick Contribution Rules
 
-- Oral-history and testimony datasets, archives, portals, and catalogs.
-- Transcripts, subtitles, TEI/XML editions, interview metadata, and APIs.
-- ASR, speech, video, OCR, and multimodal resources.
-- NER, entity-linking, sentiment, emotion, topic, and narrative-analysis resources.
-- Vocabularies, gazetteers, authority files, and thesauri.
-- Tools and models directly useful for oral-history AI/NLP research.
-- Responsible AI, access-control, RAG, and evaluation resources tied to sensitive testimony or oral-history material.
+- Add only publicly verifiable resources.
+- Prefer one resource per pull request, or a small themed batch of up to five resources.
+- Add concise awesome-list entries, not long descriptions.
+- Link to an official or institutionally reliable source.
+- Do not add restricted data, copied testimony text, scraped content, PDFs, media files, notebooks, scripts, or generated datasets.
+- If access, license, format, or relevance is unclear, add the item to `Needs Verification` instead of the main list.
 
-Please do not add generic NLP resources unless their relevance to oral history, testimony, archives, cultural heritage, or sensitive narrative collections is clear.
+## Where to Add a Resource
+
+Use this decision path:
+
+1. If the resource is clearly relevant and publicly verifiable, add it to one primary section in `README.md`.
+2. If it also helps users browse by task or language, add it to the matching index section.
+3. If the access status is clear, add it under the correct `Browse by Access` subsection.
+4. If any core facts are unclear, add it only to `Needs Verification`.
+
+Primary sections:
+
+- `Open Datasets`
+- `Access-Limited Archives`
+- `Catalogs & Discovery`
+- `Annotations & Benchmarks`
+- `Vocabularies & Authorities`
+- `Tools & Platforms`
+
+Indexes:
+
+- `Tasks & Methods`
+- `Browse by Language`
+- `Browse by Access`
+
+## Entry Format
+
+Use this one-line format for main list entries:
+
+```markdown
+- [Resource Name](https://official.example.org/) - One concise, neutral sentence. 📄 `Text` 🟢 `Open`
+```
+
+Use the shortest accurate description possible. Avoid promotional wording.
 
 ## Required Information
 
-Each proposed main-list entry should include:
+Every main-list resource should have enough public documentation to verify:
 
 - Resource name.
 - Official URL.
-- Maintainer or institution.
+- Maintainer, institution, or project.
 - One-sentence description.
 - Modality, such as text, audio, video, metadata, model, or tool.
 - Language coverage, if documented.
 - Access level.
-- License or terms.
+- License or terms, if available.
 - Relevant tasks, such as ASR, search, RAG, NER, entity linking, sentiment analysis, OCR, or responsible AI evaluation.
-- Notes on ethical, legal, or access constraints.
+- Ethical, legal, or access constraints, if relevant.
 
-If any core information is unclear, add the resource to `Needs Verification` instead of the main curated list.
+## Tags
 
-## Access Tags
+Use the README legend tags exactly. Include symbols when adding tags to resource lines.
 
-Use the README access tags:
+Access tags:
 
-- `Open`: direct download under stated terms.
-- `Web`: searchable or viewable online, but bulk download may not be available.
-- `Metadata`: public records, descriptions, dashboards, or metadata are available, but full content is not.
-- `Register`: free account, registration, or request needed.
-- `Institutional`: subscribing institution, reading room, access site, or approved network needed.
-- `Restricted`: explicit permission, data agreement, or special license needed.
-- `Verify`: public availability, license, or scope is not confirmed.
+- 🟢 `Open`: direct download under stated terms.
+- 🔵 `Web`: searchable or viewable online, but bulk download may not be available.
+- 🟡 `Metadata`: public records or descriptions are available, but full content may not be.
+- 🟠 `Register`: account, registration, request, or approval needed.
+- 🔴 `Institutional`: reading room, access site, subscribing institution, or approved network needed.
+- ⚫ `Restricted`: explicit permission, data agreement, or special license needed.
+- ❓ `Verify`: access, license, scope, or format is not confirmed.
 
-Do not call something open unless there is a clear download path and license or terms.
+Modality tags:
+
+- 📄 `Text`
+- 🔊 `Audio`
+- 🎞️ `Video`
+- 🧩 `Multimodal`
+- 🔍 `OCR`
+- 🗂️ `Metadata`
+- 🏷️ `NER`
+- 🧭 `Authority`
+- 🛠️ `Tool`
+- 🤖 `Model`
+
+Do not call something `Open` unless there is a clear download path and stated license or terms.
+
+## Main List or Needs Verification
+
+Add to the main list only when all of these are true:
+
+- The URL is official or institutionally reliable.
+- The resource is directly relevant to oral history, testimony, archives, cultural heritage, or sensitive narrative collections.
+- Access status is clear enough to tag.
+- The description can be supported by public documentation.
+- The entry does not expose personal data or protected content.
+
+Add to `Needs Verification` when:
+
+- The resource was mentioned in a paper, talk, or notes but has no clear public landing page.
+- The license, access status, language coverage, or format is unclear.
+- It may be relevant but needs review before being presented as usable.
+- It appears to be based on restricted testimony data and reuse terms are not public.
+
+## Automated PR Checklist
+
+Automated pull requests should include this information in the PR body:
+
+```markdown
+## Resource
+
+- Name:
+- Official URL:
+- Maintainer / institution:
+- Proposed README section:
+- Proposed tags:
+- Access status:
+- License / terms URL:
+- Language coverage:
+- Why it belongs:
+
+## Verification
+
+- [ ] I used an official or institutionally reliable URL.
+- [ ] I did not add restricted data, copied testimony content, or personal data.
+- [ ] I checked whether the resource belongs in the main list or Needs Verification.
+- [ ] I used the README tag vocabulary.
+- [ ] I added a concise, neutral one-sentence description.
+- [ ] I updated relevant browse sections, if applicable.
+```
 
 ## Sensitive-Data Policy
 
@@ -54,30 +142,32 @@ Do not contribute:
 - Restricted testimony data.
 - Scraped testimony content.
 - Personal data copied from archives.
-- Mirrors of protected audio, video, transcripts, or documents.
+- Mirrors of protected audio, video, transcripts, images, or documents.
 - Model-training recipes that assume unauthorized reuse of restricted collections.
 
 Respect archive terms, consent contexts, survivor and interviewee dignity, and community expectations. When in doubt, link to official metadata or documentation rather than copying content.
 
-## Verification Checklist
+## Review Checklist
 
-Before adding a resource to the main list, check:
+Maintainers can review a PR by checking:
 
-- Is the URL official or institutionally reliable?
-- Is the resource directly relevant to this list?
-- Is the access status clear?
-- Is the license or terms-of-use page linked or summarized?
+- Does the PR touch only Markdown guidance/list files?
+- Is each new URL official or institutionally reliable?
+- Is each new resource directly relevant?
+- Are access and modality tags accurate?
+- Is the license or terms page linked or easy to find?
 - Are language coverage and formats supported by public documentation?
-- Is the description neutral and non-promotional?
-- Does the entry avoid personal data and protected content?
-- Should it go to the main list or `Needs Verification`?
+- Is the wording concise, neutral, and non-promotional?
+- Does the PR avoid personal data and protected content?
+- Should the item be moved to `Needs Verification`?
 
 ## Style Guide
 
-- Use concise descriptions.
-- Prefer one line per resource.
+- Use one line per resource.
+- Keep descriptions short and factual.
+- Use sentence case.
 - Keep tags short and consistent.
 - Do not overclaim.
-- Use `unknown`, `access unclear`, or `Verify` when uncertain.
-- Prefer `Web` or `Metadata` when full download is not clearly available.
+- Use `unknown`, `access unclear`, or ❓ `Verify` when uncertain.
+- Prefer 🔵 `Web` or 🟡 `Metadata` when full download is not clearly available.
 - Do not quote non-public notes, correspondence, restricted documents, or project materials.
