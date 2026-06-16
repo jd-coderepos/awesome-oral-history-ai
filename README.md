@@ -35,6 +35,7 @@ This repository does not host, mirror, scrape, or redistribute testimony data. E
 - [Needs Verification](#needs-verification)
 - [Responsible Use](#responsible-use)
 - [Contributing](#contributing)
+- [Acknowledgement](#acknowledgement)
 
 ## Legend
 
@@ -284,3 +285,11 @@ New resources should include a public URL, access status, license or terms, lang
 ## ⚖️ License
 
 This curated list is released under CC BY 4.0 unless otherwise stated. Each linked resource remains governed by its own license, access conditions, and terms of use.
+
+<a id="acknowledgement"></a>
+
+## ✨ Acknowledgement
+
+[![Assisted by OpenAI Codex](https://img.shields.io/badge/assisted%20by-OpenAI%20Codex-412991.svg)](https://openai.com/codex/)
+
+This list was initially structured and edited with assistance from [OpenAI Codex](https://openai.com/codex/). Resource selection, review, and maintenance remain community-curated.
